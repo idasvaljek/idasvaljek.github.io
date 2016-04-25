@@ -33,90 +33,100 @@
 
     <!-- Page Content -->
     <div class="container">
-    <h1 class="page-header">Stan 1</h1>
+      <h1 class="page-header">Stan 1</h1>
       <!--<div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header">Stan 1</h1>
+        <h1 class="page-header">Stan 1</h1>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb" align="center">
-          <a class="thumbnail" href="img/stan_1/1k.jpg">
-            <img class="img-responsive" src="img/stan_1/1k.jpg" alt="">
-          </a>
+        <a class="thumbnail" href="img/stan_1/1k.jpg">
+        <img class="img-responsive" src="img/stan_1/1k.jpg" alt="">
+        </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="img/stan_1/12s.jpg">
-            <img class="img-responsive" src="img/stan_1/12s.jpg" alt="">
-          </a>
+        <a class="thumbnail" href="img/stan_1/12s.jpg">
+        <img class="img-responsive" src="img/stan_1/12s.jpg" alt="">
+        </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="img/stan_1/13s.jpg">
-            <img class="img-responsive" src="img/stan_1/13s.jpg" alt="">
-          </a>
+        <a class="thumbnail" href="img/stan_1/13s.jpg">
+        <img class="img-responsive" src="img/stan_1/13s.jpg" alt="">
+        </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="img/stan_1/tlocrt.jpg">
-            <img class="img-responsive" src="img/stan_1/tlocrt.jpg" alt="">
-          </a>
+        <a class="thumbnail" href="img/stan_1/tlocrt.jpg">
+        <img class="img-responsive" src="img/stan_1/tlocrt.jpg" alt="">
+        </a>
         </div>
-      /div> -->
+        /div> -->
 
-      <hr>
+        <hr>
 
-      <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-      <div id="blueimp-gallery" class="blueimp-gallery">
-        <!-- The container for the modal slides -->
-        <div class="slides"></div>
-        <!-- Controls for the borderless lightbox -->
-        <h3 class="title"></h3>
-        <a class="prev">‹</a>
-        <a class="next">›</a>
-        <a class="close">×</a>
-        <a class="play-pause"></a>
-        <ol class="indicator"></ol>
-        <!-- The modal dialog, which will be used to wrap the lightbox content -->
-        <div class="modal fade">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" aria-hidden="true">&times;</button>
-                <h4 class="modal-title"></h4>
-              </div>
-              <div class="modal-body next"></div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default pull-left prev">
-                  <i class="glyphicon glyphicon-chevron-left"></i>
-                  Previous
-                </button>
-                <button type="button" class="btn btn-primary next">
-                  Next
-                  <i class="glyphicon glyphicon-chevron-right"></i>
-                </button>
+        <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+        <div id="blueimp-gallery" class="blueimp-gallery" data-use-bootstrap-modal="false">
+          <!-- The container for the modal slides -->
+          <div class="slides"></div>
+          <!-- Controls for the borderless lightbox -->
+          <h3 class="title"></h3>
+          <a class="prev">‹</a>
+          <a class="next">›</a>
+          <a class="close">×</a>
+          <a class="play-pause"></a>
+          <ol class="indicator"></ol>
+          <!-- The modal dialog, which will be used to wrap the lightbox content -->
+          <div class="modal fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default pull-left prev">
+                    <i class="glyphicon glyphicon-chevron-left"></i>
+                    Previous
+                  </button>
+                  <button type="button" class="btn btn-primary next">
+                    Next
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <div id="links">
+          <a href="img/stan_1/tlocrt.jpg" title="Tlocrt" data-gallery>
+            <img src="img/stan_1/tlocrt.jpg" alt="Banana" height="200" width="300">
+          </a>
+
+          <a href="img/stan_1/1k.jpg" title="Tlocrt" data-gallery>
+            <img src="img/stan_1/1k.jpg" alt="Banana" height="200" width="300">
+          </a>
+          <a href="img/stan_1/tlocrt.jpg" title="Tlocrt" data-gallery>
+            <img src="img/stan_1/12s.jpg" alt="Banana" height="200" width="300">
+          </a>
+          <a href="img/stan_1/tlocrt.jpg" title="Tlocrt" data-gallery>
+            <img src="img/stan_1/13s.jpg" alt="Banana" height="200" width="300">
+          </a>
+        </div>
+
+        <!-- Footer -->
       </div>
+      <!-- /.container -->
 
-      <div id="links">
-        <a href="img/stan_1/tlocrt.jpg" title="Tlocrt" data-gallery>
-          <img src="img/stan_1/tlocrt.jpg" alt="Banana" height="200" width="300">
-        </a>
-      </div>
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
 
-      <!-- Footer -->
-    </div>
-    <!-- /.container -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+      <script src="js/bootstrap-image-gallery.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-    <script src="js/bootstrap-image-gallery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
 
   </body>
 
