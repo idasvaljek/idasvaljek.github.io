@@ -297,6 +297,9 @@ th {
 .glyphicon-envelope:before {
   content: "\2709";
 }
+
+.top-buffer { margin-top:20px; }
+
 .glyphicon-pencil:before {
   content: "\270f";
 }
