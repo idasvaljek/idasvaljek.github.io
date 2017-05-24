@@ -39,7 +39,9 @@ p {
 }
 
   br2 {
-        line-height: 10%;
+   display: block;
+   margin: 10px 0;
+}
      }
 
 p6 {
