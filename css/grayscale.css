@@ -47,7 +47,7 @@ p {
 p6 {
   margin: 0 0 0 0;
   font-size: 18px;
-  line-height: 1;
+  line-height: 0.1;
 }
 
 @media(min-width:768px) {
